@@ -30,6 +30,7 @@ e0f <-
   mutate(sex = "Female") %>% 
   select(period, sex, e0)
 
+
 #combine male and female data
 e0wpp <-
   bind_rows(e0m, e0f) %>% 
